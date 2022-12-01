@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  tuya:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2022-12-01T11:36:38.853885+01:00"
+    description: Tuya API
+    digest: a4e82ea132e0c37b47b732ac2fd5971de71ee0baa0d1b91336873976542fe7cf
+    name: tuya
+    type: application
+    urls:
+    - tuya-0.1.1.tgz
+    version: 0.1.1
+generated: "2022-12-01T11:36:38.848418+01:00"
