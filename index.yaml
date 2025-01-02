@@ -3,7 +3,7 @@ entries:
   Spacetime:
   - apiVersion: v2
     appVersion: 1.3.1
-    created: "2025-01-02T12:19:03.497861707Z"
+    created: "2025-01-02T12:20:13.876477406Z"
     dependencies:
     - name: mongo
       repository: file://../../../apps/mongo/helm
@@ -30,9 +30,9 @@ entries:
   forms:
   - apiVersion: v2
     appVersion: 1.3.1
-    created: "2025-01-02T12:19:03.499535446Z"
+    created: "2025-01-02T12:20:13.877340238Z"
     description: Inspection and device control
-    digest: e3b8ca2fec9d8df042196232a922060c85d52bfb390835b42837a13d8b492c98
+    digest: 2c140ea0c42b8e905d2b669315da85a3b0e5c233e8908ba6e55850776300a118
     name: forms
     type: application
     urls:
@@ -41,9 +41,9 @@ entries:
   modeler:
   - apiVersion: v2
     appVersion: 1.3.1
-    created: "2025-01-02T12:19:03.501204911Z"
+    created: "2025-01-02T12:20:13.878785963Z"
     description: Solid modeler for 3D-T visualization
-    digest: d742cd9ca0cd1639cb92034b4c8747e4b12d25bb2aee285c1afa48414171fa4e
+    digest: 6e8e981c7463ecc7ba389f4ebe1f1b0b82bc68360e25f7240e1914f2f67c8d44
     name: modeler
     type: application
     urls:
@@ -52,9 +52,9 @@ entries:
   mongo:
   - apiVersion: v2
     appVersion: "4.4"
-    created: "2025-01-02T12:19:03.502627384Z"
+    created: "2025-01-02T12:20:13.881183955Z"
     description: 3d-t mongo database standalone
-    digest: 8ab287389d0916ba2ea5a1aa98d9f83e0b08342576560c076b5d2964db245674
+    digest: 96d7eb5211c5580945aba034761bb07908dc78532fae932d8bb38cd62573dbc2
     name: mongo
     type: application
     urls:
@@ -63,9 +63,9 @@ entries:
   portal:
   - apiVersion: v2
     appVersion: 1.3.1
-    created: "2025-01-02T12:19:03.503861417Z"
+    created: "2025-01-02T12:20:13.882666321Z"
     description: Portal for 3D-T apps
-    digest: f91a5064fb50a409ec693277aedf3d3bfb72de533944832af138e4c1e7171b09
+    digest: dd01647a44b48ac6a7203715d2469620bfe6400550c289648d9b1647fb89e8e4
     name: portal
     type: application
     urls:
@@ -74,9 +74,9 @@ entries:
   server:
   - apiVersion: v2
     appVersion: 1.3.1
-    created: "2025-01-02T12:19:03.505148478Z"
+    created: "2025-01-02T12:20:13.884835732Z"
     description: Server back-end
-    digest: 4766a16cf16b54a24e54846df028988167846ca3e4b86ca8156f704fab20c714
+    digest: fc569529de712404694400df9bebb53777d78da52577e7f2feef09cd06a3ed3f
     name: server
     type: application
     urls:
@@ -85,7 +85,7 @@ entries:
   spacetime:
   - apiVersion: v2
     appVersion: 1.3.1
-    created: "2025-01-02T12:19:03.510361736Z"
+    created: "2025-01-02T12:20:13.891692546Z"
     dependencies:
     - name: mongo
       repository: file://../../../apps/mongo/helm
@@ -103,7 +103,7 @@ entries:
       repository: file://../../../apps/portal/helm
       version: 1.3.1
     description: Digital Twin as a service
-    digest: ed59c62dcaa8e8bc681599f119dd7c0ae688ce6ffc4a01f9a980f4e90cba908b
+    digest: fdffb91d1ffbc53e1a80cb0328112fc4cd70d4b4d39d42a882828eb20c4713d9
     name: spacetime
     type: application
     urls:
@@ -112,7 +112,7 @@ entries:
   tuya:
   - apiVersion: v2
     appVersion: latest
-    created: "2025-01-02T12:19:03.511530424Z"
+    created: "2025-01-02T12:20:13.893281883Z"
     description: Tuya API
     digest: a4e82ea132e0c37b47b732ac2fd5971de71ee0baa0d1b91336873976542fe7cf
     name: tuya
@@ -120,4 +120,4 @@ entries:
     urls:
     - tuya-0.1.1.tgz
     version: 0.1.1
-generated: "2025-01-02T12:19:03.491019895Z"
+generated: "2025-01-02T12:20:13.873092651Z"
