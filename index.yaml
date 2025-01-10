@@ -3,7 +3,7 @@ entries:
   core:
   - apiVersion: v2
     appVersion: latest
-    created: "2025-01-10T09:03:48.001798775Z"
+    created: "2025-01-10T10:05:28.521745129Z"
     dependencies:
     - name: mongo
       repository: file://../mongo
@@ -30,7 +30,7 @@ entries:
   forms:
   - apiVersion: v2
     appVersion: latest
-    created: "2025-01-10T09:03:48.003168708Z"
+    created: "2025-01-10T10:05:28.522717943Z"
     description: Inspection and device control
     digest: 91f9f72b814a858901e13fe3cfc891edbb358f424d862f86105715fb57c02103
     name: forms
@@ -41,7 +41,7 @@ entries:
   modeler:
   - apiVersion: v2
     appVersion: latest
-    created: "2025-01-10T09:03:48.004456667Z"
+    created: "2025-01-10T10:05:28.523884167Z"
     description: Solid modeler for 3D-T visualization
     digest: 0f9120f870433e33afbb36695b97f52a414594bcb9361731606bc51c70367fed
     name: modeler
@@ -52,7 +52,7 @@ entries:
   mongo:
   - apiVersion: v2
     appVersion: "4.4"
-    created: "2025-01-10T09:03:48.006613646Z"
+    created: "2025-01-10T10:05:28.525119814Z"
     description: 3d-t mongo database standalone
     digest: 3b263bbe1b7b81753c8d848965430a9c70c5b5045fbc0d1402d3bdc07401b80d
     name: mongo
@@ -63,7 +63,7 @@ entries:
   portal:
   - apiVersion: v2
     appVersion: latest
-    created: "2025-01-10T09:03:48.007651694Z"
+    created: "2025-01-10T10:05:28.526085155Z"
     description: Portal for 3D-T apps
     digest: 4062c1fc75fc394e81ad235e50a29426af7f9f5d9ce5104d3a79b9bb436bd9c2
     name: portal
@@ -74,7 +74,7 @@ entries:
   server:
   - apiVersion: v2
     appVersion: latest
-    created: "2025-01-10T09:03:48.008638536Z"
+    created: "2025-01-10T10:05:28.52707465Z"
     description: Server back-end
     digest: beecc4c52a7db1c969b81fb08533b90f97265593d305a11133679e09fb8f11da
     name: server
@@ -85,9 +85,9 @@ entries:
   tesla:
   - apiVersion: v2
     appVersion: latest
-    created: "2025-01-10T09:03:48.009907879Z"
+    created: "2025-01-10T10:05:28.528013282Z"
     description: Tesla Owners API
-    digest: faa3dc3160f0135b66439f13e23ba5daea80a9327f615f93ad480f35a7614fe0
+    digest: 47bc050be293a5767f6f38250d64acc41f3679af04f28425ffddc60cd329dcb5
     name: tesla
     type: application
     urls:
@@ -96,7 +96,7 @@ entries:
   tuya:
   - apiVersion: v2
     appVersion: latest
-    created: "2025-01-10T09:03:48.011256222Z"
+    created: "2025-01-10T10:05:28.528924409Z"
     description: Tuya API
     digest: a4e82ea132e0c37b47b732ac2fd5971de71ee0baa0d1b91336873976542fe7cf
     name: tuya
@@ -104,4 +104,4 @@ entries:
     urls:
     - tuya-0.1.1.tgz
     version: 0.1.1
-generated: "2025-01-10T09:03:47.996736016Z"
+generated: "2025-01-10T10:05:28.518224865Z"
