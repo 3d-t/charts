@@ -3,7 +3,7 @@ entries:
   core:
   - apiVersion: v2
     appVersion: latest
-    created: "2025-02-27T12:36:34.393481928Z"
+    created: "2025-04-11T14:04:07.989614025Z"
     dependencies:
     - name: mongo
       repository: file://../mongo
@@ -11,8 +11,8 @@ entries:
     - name: server
       repository: file://../server
       version: 1.4.0
-    - name: modeler
-      repository: file://../modeler
+    - name: draw
+      repository: file://../draw
       version: 1.4.0
     - name: forms
       repository: file://../forms
@@ -21,7 +21,7 @@ entries:
       repository: file://../portal
       version: 1.4.0
     description: Digital Twin as a service
-    digest: c238b689056f1a099e7bc0d27ffc7ffeda8744a04115922cf4281d5c5b30f9ed
+    digest: 71e8aaafcc3784f9839e73016f55ce725c1b75254f1b931b122c9d103d47cd6e
     name: core
     type: application
     urls:
@@ -29,7 +29,7 @@ entries:
     version: 1.4.0
   - apiVersion: v2
     appVersion: 1.3.3
-    created: "2025-02-27T12:36:34.390858363Z"
+    created: "2025-04-11T14:04:07.986036385Z"
     dependencies:
     - name: mongo
       repository: file://../mongo
@@ -55,7 +55,7 @@ entries:
     version: 1.3.3
   - apiVersion: v2
     appVersion: 1.3.2
-    created: "2025-02-27T12:36:34.385381412Z"
+    created: "2025-04-11T14:04:07.98307436Z"
     dependencies:
     - name: mongo
       repository: file://../mongo
@@ -81,7 +81,7 @@ entries:
     version: 1.3.2
   - apiVersion: v2
     appVersion: 1.3.2
-    created: "2025-02-27T12:36:34.378552516Z"
+    created: "2025-04-11T14:04:07.98017585Z"
     dependencies:
     - name: mongo
       repository: file://../mongo
@@ -108,7 +108,7 @@ entries:
   crawler:
   - apiVersion: v2
     appVersion: latest
-    created: "2025-02-27T12:36:34.394292526Z"
+    created: "2025-04-11T14:04:07.990578832Z"
     description: Web crawler engine
     digest: 78c272c632287c0ed4f991278700190288283e19d325f36558c2a34c8cf9ffe5
     name: crawler
@@ -116,12 +116,23 @@ entries:
     urls:
     - crawler-1.3.1.tgz
     version: 1.3.1
+  draw:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2025-04-11T14:04:07.993500217Z"
+    description: Solid draw for 3D-T visualization
+    digest: 13fdea79a8e557979c1cf19be51e9c451ef43dbd662254d97537fda29eed12b8
+    name: draw
+    type: application
+    urls:
+    - draw-1.4.0.tgz
+    version: 1.4.0
   forms:
   - apiVersion: v2
     appVersion: latest
-    created: "2025-02-27T12:36:34.396904423Z"
+    created: "2025-04-11T14:04:07.996523242Z"
     description: Inspection and device control
-    digest: 26da2e0f873eca3ea3e01d4898a94b8d76f09bcfa84c966c2ca2d818046bbb73
+    digest: 0606fa7c09d9a65f372db5e7dbee3eeab2662d5fca5ceeec2deece0ca145f1b9
     name: forms
     type: application
     urls:
@@ -129,7 +140,7 @@ entries:
     version: 1.4.0
   - apiVersion: v2
     appVersion: 1.3.3
-    created: "2025-02-27T12:36:34.396298267Z"
+    created: "2025-04-11T14:04:07.995774273Z"
     description: Inspection and device control
     digest: 074fd2123c63854bcbb68ad6d4898385d857b959fea486fdeee046e31fa93685
     name: forms
@@ -139,7 +150,7 @@ entries:
     version: 1.3.3
   - apiVersion: v2
     appVersion: 1.3.2
-    created: "2025-02-27T12:36:34.395673522Z"
+    created: "2025-04-11T14:04:07.995072434Z"
     description: Inspection and device control
     digest: 6e0dc3ad5c99818dbcba6b5e99f971d62165e0b06ecbe5785c8ef70ed8209cca
     name: forms
@@ -149,7 +160,7 @@ entries:
     version: 1.3.2
   - apiVersion: v2
     appVersion: 1.3.2
-    created: "2025-02-27T12:36:34.394922104Z"
+    created: "2025-04-11T14:04:07.994385755Z"
     description: Inspection and device control
     digest: f537b2f44791facf85ed49e60fd1eecc68a8dfdf24e4a18dc90189d3456ecd62
     name: forms
@@ -160,7 +171,7 @@ entries:
   homeassistant:
   - apiVersion: v2
     appVersion: latest
-    created: "2025-02-27T12:36:34.398976705Z"
+    created: "2025-04-11T14:04:07.997216961Z"
     description: Homeassistant bridge
     digest: debe9960a9b1cf353b8891f97a8018796e6588589d24a3d8f126a1a6c559915f
     name: homeassistant
@@ -171,7 +182,7 @@ entries:
   modeler:
   - apiVersion: v2
     appVersion: latest
-    created: "2025-02-27T12:36:34.402122081Z"
+    created: "2025-04-11T14:04:08.002175511Z"
     description: Solid modeler for 3D-T visualization
     digest: cbb60a6ef6fd39a6842d2085a6adf674b929dada7513cfaeb6224e8a950d4466
     name: modeler
@@ -181,7 +192,7 @@ entries:
     version: 1.4.0
   - apiVersion: v2
     appVersion: 1.3.3
-    created: "2025-02-27T12:36:34.401207264Z"
+    created: "2025-04-11T14:04:08.000891673Z"
     description: Solid modeler for 3D-T visualization
     digest: 58b4b0c725f1d2b661cc9bc612626dc4ae99028d42845c6d51d5bcafab06ee59
     name: modeler
@@ -191,7 +202,7 @@ entries:
     version: 1.3.3
   - apiVersion: v2
     appVersion: 1.3.2
-    created: "2025-02-27T12:36:34.400430276Z"
+    created: "2025-04-11T14:04:07.999636384Z"
     description: Solid modeler for 3D-T visualization
     digest: 071b761536325fc512f5b9241de4a16b1cbfb4aa2e93d8facd1071a99f6b4d7d
     name: modeler
@@ -201,7 +212,7 @@ entries:
     version: 1.3.2
   - apiVersion: v2
     appVersion: 1.3.2
-    created: "2025-02-27T12:36:34.399724913Z"
+    created: "2025-04-11T14:04:07.998453815Z"
     description: Solid modeler for 3D-T visualization
     digest: fba017f5c3e42e3e03f7495dd4bcb8be54be5e259e0f0aa647417396d866da67
     name: modeler
@@ -212,9 +223,9 @@ entries:
   mongo:
   - apiVersion: v2
     appVersion: "4.4"
-    created: "2025-02-27T12:36:34.403347621Z"
+    created: "2025-04-11T14:04:08.003424257Z"
     description: 3d-t mongo database standalone
-    digest: 08fcaa6b18c13babb2c5034eb887ebc6dcffa5052af2232e8dd7b9643061ece8
+    digest: 86cd583001578b639d0069224e8dfb045457f7d0d652d5663062525086f6592a
     name: mongo
     type: application
     urls:
@@ -223,9 +234,9 @@ entries:
   portal:
   - apiVersion: v2
     appVersion: latest
-    created: "2025-02-27T12:36:34.408340128Z"
+    created: "2025-04-11T14:04:08.009103152Z"
     description: Portal for 3D-T apps
-    digest: 21ac78475de6b1221ef69317b11cc0b57bd2c245f0748268811c4a85b3b4efde
+    digest: aaa9d06289f7502e1e8aed88ed5d47cae40920803280b3d34d2e09933bafcd99
     name: portal
     type: application
     urls:
@@ -233,7 +244,7 @@ entries:
     version: 1.4.0
   - apiVersion: v2
     appVersion: 1.3.3
-    created: "2025-02-27T12:36:34.406964441Z"
+    created: "2025-04-11T14:04:08.007034515Z"
     description: Portal for 3D-T apps
     digest: 77342b9005f126925f649a2672aa5b23427d262872827705685cd38249caff2e
     name: portal
@@ -243,7 +254,7 @@ entries:
     version: 1.3.3
   - apiVersion: v2
     appVersion: 1.3.2
-    created: "2025-02-27T12:36:34.405796861Z"
+    created: "2025-04-11T14:04:08.005745978Z"
     description: Portal for 3D-T apps
     digest: 415c4976192f660d735d23532ab8b002f38b4c32748b58381962df5a7316c2de
     name: portal
@@ -253,7 +264,7 @@ entries:
     version: 1.3.2
   - apiVersion: v2
     appVersion: 1.3.2
-    created: "2025-02-27T12:36:34.404523352Z"
+    created: "2025-04-11T14:04:08.00459263Z"
     description: Portal for 3D-T apps
     digest: 96df62f74d234b2bdf37459b7a3be330d3b29e5e15c05fd8fed6a7da416a35e4
     name: portal
@@ -264,7 +275,7 @@ entries:
   rust:
   - apiVersion: v2
     appVersion: latest
-    created: "2025-02-27T12:36:34.40975018Z"
+    created: "2025-04-11T14:04:08.011848671Z"
     description: Rust webservice template
     digest: f2108af35d2759fdf922da0d61b6065a24a8759c058e907c30e1e45790e82059
     name: rust
@@ -275,9 +286,9 @@ entries:
   server:
   - apiVersion: v2
     appVersion: latest
-    created: "2025-02-27T12:36:34.415126823Z"
+    created: "2025-04-11T14:04:08.019360569Z"
     description: Server back-end
-    digest: cd51d59bdc17ffe5078b07733b7d683dc8e95d2c9b4c975a8de387003e75e151
+    digest: d1d9dbeee9090f83862d0fbcd1ee6888acd2628eb5e24c67a2222d5071defb8b
     name: server
     type: application
     urls:
@@ -285,7 +296,7 @@ entries:
     version: 1.4.0
   - apiVersion: v2
     appVersion: 1.3.3
-    created: "2025-02-27T12:36:34.414350517Z"
+    created: "2025-04-11T14:04:08.016459682Z"
     description: Server back-end
     digest: 71460d8acd0d7eb5db9cb2c107416c46283a7a882f52cc87965d694ea405cab7
     name: server
@@ -295,7 +306,7 @@ entries:
     version: 1.3.3
   - apiVersion: v2
     appVersion: 1.3.2
-    created: "2025-02-27T12:36:34.412929421Z"
+    created: "2025-04-11T14:04:08.014946552Z"
     description: Server back-end
     digest: 512eb3bf03a19c57f8baa278e3331c2e36509b4d8e290c195ebc8007447b31e1
     name: server
@@ -305,7 +316,7 @@ entries:
     version: 1.3.2
   - apiVersion: v2
     appVersion: 1.3.2
-    created: "2025-02-27T12:36:34.41136848Z"
+    created: "2025-04-11T14:04:08.013390287Z"
     description: Server back-end
     digest: c43d987e7d255f3678d42ae17da392bc8673c9599b33d70930878a40928a0caa
     name: server
@@ -316,7 +327,7 @@ entries:
   tesla:
   - apiVersion: v2
     appVersion: latest
-    created: "2025-02-27T12:36:34.416599454Z"
+    created: "2025-04-11T14:04:08.020486437Z"
     description: Tesla Owners API
     digest: 711a45919ac3ea396e2c30ce24d20ec323a02ae0134a258805062fa6fd7d48a1
     name: tesla
@@ -327,7 +338,7 @@ entries:
   tuya:
   - apiVersion: v2
     appVersion: latest
-    created: "2025-02-27T12:36:34.421720323Z"
+    created: "2025-04-11T14:04:08.023006083Z"
     description: Tuya API
     digest: 38f036ef1bae23d63e319c2f0398337c8fad268c76b2d91e2a474460a603adeb
     name: tuya
@@ -337,7 +348,7 @@ entries:
     version: 1.3.1
   - apiVersion: v2
     appVersion: latest
-    created: "2025-02-27T12:36:34.419877976Z"
+    created: "2025-04-11T14:04:08.021578263Z"
     description: Tuya API
     digest: a4e82ea132e0c37b47b732ac2fd5971de71ee0baa0d1b91336873976542fe7cf
     name: tuya
@@ -345,4 +356,4 @@ entries:
     urls:
     - tuya-0.1.1.tgz
     version: 0.1.1
-generated: "2025-02-27T12:36:34.371491785Z"
+generated: "2025-04-11T14:04:07.976559026Z"
