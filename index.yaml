@@ -3,9 +3,9 @@ entries:
   agent:
   - apiVersion: v2
     appVersion: latest
-    created: "2026-04-11T13:31:40.392963917Z"
+    created: "2026-04-11T13:50:39.47608177Z"
     description: Agent back-end
-    digest: 615e7c7134d58cfdbe69df53f893e49926528aa1f7be4e804571fa7a3f93d3ec
+    digest: e35f7186c3398c9ead65f316d7acd6d4909cca339745d0e4fb38a835bc77ca0e
     name: agent
     type: application
     urls:
@@ -14,7 +14,7 @@ entries:
   core:
   - apiVersion: v2
     appVersion: latest
-    created: "2026-04-11T13:31:40.419571841Z"
+    created: "2026-04-11T13:50:39.488750263Z"
     dependencies:
     - name: mongo
       repository: file://../mongo
@@ -41,7 +41,7 @@ entries:
       repository: file://../agent
       version: 1.4.0
     description: Digital Twin as a service
-    digest: dc16c7f04329453bec0399c79a8198c94f4c7bcfd3516b937eb5bb20663858be
+    digest: 43a1d8d94bfecaa546a2dbc2fbabfd0ce2be92c033fb207cb4313d35c99fa59f
     name: core
     type: application
     urls:
@@ -49,7 +49,7 @@ entries:
     version: 1.4.0
   - apiVersion: v2
     appVersion: 1.3.3
-    created: "2026-04-11T13:31:40.410970309Z"
+    created: "2026-04-11T13:50:39.48277335Z"
     dependencies:
     - name: mongo
       repository: file://../mongo
@@ -75,7 +75,7 @@ entries:
     version: 1.3.3
   - apiVersion: v2
     appVersion: 1.3.2
-    created: "2026-04-11T13:31:40.404148581Z"
+    created: "2026-04-11T13:50:39.48070983Z"
     dependencies:
     - name: mongo
       repository: file://../mongo
@@ -101,7 +101,7 @@ entries:
     version: 1.3.2
   - apiVersion: v2
     appVersion: 1.3.2
-    created: "2026-04-11T13:31:40.396452099Z"
+    created: "2026-04-11T13:50:39.478502976Z"
     dependencies:
     - name: mongo
       repository: file://../mongo
@@ -128,7 +128,7 @@ entries:
   crawler:
   - apiVersion: v2
     appVersion: latest
-    created: "2026-04-11T13:31:40.421486333Z"
+    created: "2026-04-11T13:50:39.489771801Z"
     description: Web crawler engine
     digest: fabd161d59bf97f949e1de17dc6b6caa5f5a76cc3df53c97f24acd7e5d15bee7
     name: crawler
@@ -139,9 +139,9 @@ entries:
   draw:
   - apiVersion: v2
     appVersion: latest
-    created: "2026-04-11T13:31:40.424525721Z"
+    created: "2026-04-11T13:50:39.490596357Z"
     description: SVG drawing
-    digest: 098db8d658f0364295237c22091b397fcad496c9d781039bcd4504917b3de7c4
+    digest: 57eac079eb40968b96c1b97d7065849854c906fec3b9da53c309b19118ef6b85
     name: draw
     type: application
     urls:
@@ -150,9 +150,9 @@ entries:
   forms:
   - apiVersion: v2
     appVersion: latest
-    created: "2026-04-11T13:31:40.430645357Z"
+    created: "2026-04-11T13:50:39.493028656Z"
     description: Inspection and device control
-    digest: 033a9d6125c36f1a5fbcff5612c786ea0e6b7c45b8909d12d1d33ee3c2b58ab2
+    digest: 13276810c8d368c2789b1e07e9723e87b8486f0be69d681d80a3bb288e9bef83
     name: forms
     type: application
     urls:
@@ -160,7 +160,7 @@ entries:
     version: 1.4.0
   - apiVersion: v2
     appVersion: 1.3.3
-    created: "2026-04-11T13:31:40.429219715Z"
+    created: "2026-04-11T13:50:39.492467192Z"
     description: Inspection and device control
     digest: 074fd2123c63854bcbb68ad6d4898385d857b959fea486fdeee046e31fa93685
     name: forms
@@ -170,7 +170,7 @@ entries:
     version: 1.3.3
   - apiVersion: v2
     appVersion: 1.3.2
-    created: "2026-04-11T13:31:40.427587134Z"
+    created: "2026-04-11T13:50:39.491874007Z"
     description: Inspection and device control
     digest: 6e0dc3ad5c99818dbcba6b5e99f971d62165e0b06ecbe5785c8ef70ed8209cca
     name: forms
@@ -180,7 +180,7 @@ entries:
     version: 1.3.2
   - apiVersion: v2
     appVersion: 1.3.2
-    created: "2026-04-11T13:31:40.426159374Z"
+    created: "2026-04-11T13:50:39.491302025Z"
     description: Inspection and device control
     digest: f537b2f44791facf85ed49e60fd1eecc68a8dfdf24e4a18dc90189d3456ecd62
     name: forms
@@ -191,7 +191,7 @@ entries:
   homeassistant:
   - apiVersion: v2
     appVersion: latest
-    created: "2026-04-11T13:31:40.432124504Z"
+    created: "2026-04-11T13:50:39.493578082Z"
     description: Homeassistant bridge
     digest: 32fea60cddfe3ad52623c4cd0b49a40f4de5692340e2db3b5b122c0bd18af89b
     name: homeassistant
@@ -202,9 +202,9 @@ entries:
   modeler:
   - apiVersion: v2
     appVersion: latest
-    created: "2026-04-11T13:31:40.438576058Z"
+    created: "2026-04-11T13:50:39.495564103Z"
     description: Solid modeler for 3D-T visualization
-    digest: 9132b65abf5012d6661174059d2ffa6c9aea2a15262c8d95b1567b634867d725
+    digest: 0f501e51f57a039c65c65af79c28c17366a240545feebc400921524628cc8b53
     name: modeler
     type: application
     urls:
@@ -212,7 +212,7 @@ entries:
     version: 1.4.0
   - apiVersion: v2
     appVersion: 1.3.3
-    created: "2026-04-11T13:31:40.437218292Z"
+    created: "2026-04-11T13:50:39.495055287Z"
     description: Solid modeler for 3D-T visualization
     digest: 58b4b0c725f1d2b661cc9bc612626dc4ae99028d42845c6d51d5bcafab06ee59
     name: modeler
@@ -222,7 +222,7 @@ entries:
     version: 1.3.3
   - apiVersion: v2
     appVersion: 1.3.2
-    created: "2026-04-11T13:31:40.43555043Z"
+    created: "2026-04-11T13:50:39.49457575Z"
     description: Solid modeler for 3D-T visualization
     digest: 071b761536325fc512f5b9241de4a16b1cbfb4aa2e93d8facd1071a99f6b4d7d
     name: modeler
@@ -232,7 +232,7 @@ entries:
     version: 1.3.2
   - apiVersion: v2
     appVersion: 1.3.2
-    created: "2026-04-11T13:31:40.433841178Z"
+    created: "2026-04-11T13:50:39.494070101Z"
     description: Solid modeler for 3D-T visualization
     digest: fba017f5c3e42e3e03f7495dd4bcb8be54be5e259e0f0aa647417396d866da67
     name: modeler
@@ -243,9 +243,9 @@ entries:
   mongo:
   - apiVersion: v2
     appVersion: "4.4"
-    created: "2026-04-11T13:31:40.439856147Z"
+    created: "2026-04-11T13:50:39.496082529Z"
     description: 3d-t mongo database standalone
-    digest: 3ccee16e8794b4f69c6a148126284e7b858221d9dbd26c3d53e2a382ad502ac4
+    digest: 8341bf78b9b4fe2666ddb3d0149826b2159414d3019c76b9d04dd61035cd81cd
     name: mongo
     type: application
     urls:
@@ -254,7 +254,7 @@ entries:
   mongo8:
   - apiVersion: v2
     appVersion: "8.0"
-    created: "2026-04-11T13:31:40.441334438Z"
+    created: "2026-04-11T13:50:39.496615159Z"
     description: 3d-t mongo database standalone
     digest: 4d500e8808d7f760530b227436fb350b82efc62e2fbf0fe97f2b8649f9767c94
     name: mongo8
@@ -265,9 +265,9 @@ entries:
   portal:
   - apiVersion: v2
     appVersion: latest
-    created: "2026-04-11T13:31:40.448805515Z"
+    created: "2026-04-11T13:50:39.499777792Z"
     description: Portal for 3D-T apps
-    digest: 624f03e4a5250f7e981eef65f23f008d140f63196439ed698304d09e1f2ff103
+    digest: 7ba955437cb47d37ef79423b92a135564fb6a18934ed04d0dad2fca2a785ce16
     name: portal
     type: application
     urls:
@@ -275,7 +275,7 @@ entries:
     version: 1.4.0
   - apiVersion: v2
     appVersion: 1.3.3
-    created: "2026-04-11T13:31:40.44565655Z"
+    created: "2026-04-11T13:50:39.499279328Z"
     description: Portal for 3D-T apps
     digest: 77342b9005f126925f649a2672aa5b23427d262872827705685cd38249caff2e
     name: portal
@@ -285,7 +285,7 @@ entries:
     version: 1.3.3
   - apiVersion: v2
     appVersion: 1.3.2
-    created: "2026-04-11T13:31:40.444194293Z"
+    created: "2026-04-11T13:50:39.498762698Z"
     description: Portal for 3D-T apps
     digest: 415c4976192f660d735d23532ab8b002f38b4c32748b58381962df5a7316c2de
     name: portal
@@ -295,7 +295,7 @@ entries:
     version: 1.3.2
   - apiVersion: v2
     appVersion: 1.3.2
-    created: "2026-04-11T13:31:40.442755487Z"
+    created: "2026-04-11T13:50:39.49794166Z"
     description: Portal for 3D-T apps
     digest: 96df62f74d234b2bdf37459b7a3be330d3b29e5e15c05fd8fed6a7da416a35e4
     name: portal
@@ -326,9 +326,9 @@ entries:
               url: https://github.com/qdrant/qdrant-helm/pull/417
     apiVersion: v2
     appVersion: v1.16.3
-    created: "2026-04-11T13:31:40.453878674Z"
+    created: "2026-04-11T13:50:39.501169515Z"
     description: Qdrant - Vector Database for the next generation of AI applications.
-    digest: 290d035d5d368822f5e62fda50d5b73afa831ba657a07f2a3e4f7be11c38479e
+    digest: a0f5fdef343919273051e14eb2fa53f83b814449a5c0f2406dfd041d08a06d14
     home: https://qdrant.tech
     icon: https://qdrant.github.io/qdrant-helm/logo_with_text.svg
     keywords:
@@ -348,7 +348,7 @@ entries:
   rust:
   - apiVersion: v2
     appVersion: latest
-    created: "2026-04-11T13:31:40.455746451Z"
+    created: "2026-04-11T13:50:39.501686164Z"
     description: Rust webservice template
     digest: f2108af35d2759fdf922da0d61b6065a24a8759c058e907c30e1e45790e82059
     name: rust
@@ -359,9 +359,9 @@ entries:
   server:
   - apiVersion: v2
     appVersion: latest
-    created: "2026-04-11T13:31:40.461003775Z"
+    created: "2026-04-11T13:50:39.503877925Z"
     description: Server back-end
-    digest: b6d7d729372551439c14b23839bb93b91408ea59bc0d4e27e60639f2f060d4cf
+    digest: 2438f009101b76e7a756adc8931dfccba3d776b8f829d2ae0af173d53f31f20d
     name: server
     type: application
     urls:
@@ -369,7 +369,7 @@ entries:
     version: 1.4.0
   - apiVersion: v2
     appVersion: 1.3.3
-    created: "2026-04-11T13:31:40.45965338Z"
+    created: "2026-04-11T13:50:39.50334861Z"
     description: Server back-end
     digest: 71460d8acd0d7eb5db9cb2c107416c46283a7a882f52cc87965d694ea405cab7
     name: server
@@ -379,7 +379,7 @@ entries:
     version: 1.3.3
   - apiVersion: v2
     appVersion: 1.3.2
-    created: "2026-04-11T13:31:40.458482656Z"
+    created: "2026-04-11T13:50:39.502815017Z"
     description: Server back-end
     digest: 512eb3bf03a19c57f8baa278e3331c2e36509b4d8e290c195ebc8007447b31e1
     name: server
@@ -389,7 +389,7 @@ entries:
     version: 1.3.2
   - apiVersion: v2
     appVersion: 1.3.2
-    created: "2026-04-11T13:31:40.457330283Z"
+    created: "2026-04-11T13:50:39.502282349Z"
     description: Server back-end
     digest: c43d987e7d255f3678d42ae17da392bc8673c9599b33d70930878a40928a0caa
     name: server
@@ -400,7 +400,7 @@ entries:
   tesla:
   - apiVersion: v2
     appVersion: latest
-    created: "2026-04-11T13:31:40.462131751Z"
+    created: "2026-04-11T13:50:39.504364018Z"
     description: Tesla Owners API
     digest: adcb0df60027bcd03b2e97a183169888caab78f8698982f183018b3c3c60f522
     name: tesla
@@ -411,7 +411,7 @@ entries:
   tuya:
   - apiVersion: v2
     appVersion: latest
-    created: "2026-04-11T13:31:40.464329411Z"
+    created: "2026-04-11T13:50:39.505344315Z"
     description: Tuya API
     digest: 2c8e5d7a26a38d8ad991853e0154449fefa5208b67d395e561fdad6f65fa1d6f
     name: tuya
@@ -421,7 +421,7 @@ entries:
     version: 1.3.1
   - apiVersion: v2
     appVersion: latest
-    created: "2026-04-11T13:31:40.463240288Z"
+    created: "2026-04-11T13:50:39.504851833Z"
     description: Tuya API
     digest: a4e82ea132e0c37b47b732ac2fd5971de71ee0baa0d1b91336873976542fe7cf
     name: tuya
@@ -429,4 +429,4 @@ entries:
     urls:
     - tuya-0.1.1.tgz
     version: 0.1.1
-generated: "2026-04-11T13:31:40.391642036Z"
+generated: "2026-04-11T13:50:39.475285047Z"
